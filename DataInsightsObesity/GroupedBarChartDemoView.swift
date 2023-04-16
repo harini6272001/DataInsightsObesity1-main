@@ -12,6 +12,7 @@ import SwiftUICharts
 struct GroupedBarChartDemoView: View {
     
     let data = makeData()
+    var har=1
     var body: some View {
             GroupedBarChart(chartData: data, groupSpacing: 25)
                 .touchOverlay(chartData: data, unit: .suffix(of: "patients"))
