@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8762ABFC29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762ABFB29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift */; };
+		8762ABFE29ECD79C0047709D /* ContentViewTexas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762ABFD29ECD79C0047709D /* ContentViewTexas.swift */; };
+		8762AC0029ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762ABFF29ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift */; };
+		8762AC0229ECDE690047709D /* PieChartDemoViewTexas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762AC0129ECDE690047709D /* PieChartDemoViewTexas.swift */; };
 		8788439829DA1C4500C653B0 /* GroupedBarChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788439729DA1C4500C653B0 /* GroupedBarChartDemoView.swift */; };
 		878B650F29EB6EF4006ADACE /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 878B650E29EB6EF4006ADACE /* SwiftUICharts */; };
 		878B651329EB738A006ADACE /* PieChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B651229EB738A006ADACE /* PieChartDemoView.swift */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8762ABFB29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChartDemoViewTexas.swift; sourceTree = "<group>"; };
+		8762ABFD29ECD79C0047709D /* ContentViewTexas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTexas.swift; sourceTree = "<group>"; };
+		8762ABFF29ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChartDemoViewTexas1.swift; sourceTree = "<group>"; };
+		8762AC0129ECDE690047709D /* PieChartDemoViewTexas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDemoViewTexas.swift; sourceTree = "<group>"; };
 		8788439729DA1C4500C653B0 /* GroupedBarChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChartDemoView.swift; sourceTree = "<group>"; };
 		878B651229EB738A006ADACE /* PieChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDemoView.swift; sourceTree = "<group>"; };
 		878B651629EB79C1006ADACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 				878B651829EB8157006ADACE /* GroupedBarChartDemoView1.swift */,
 				878B651629EB79C1006ADACE /* ContentView.swift */,
 				878B651229EB738A006ADACE /* PieChartDemoView.swift */,
+				8762ABFD29ECD79C0047709D /* ContentViewTexas.swift */,
+				8762ABFB29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift */,
+				8762ABFF29ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift */,
+				8762AC0129ECDE690047709D /* PieChartDemoViewTexas.swift */,
 				D61AAF9429D093A300DFCD65 /* Assets.xcassets */,
 				D61AAF9629D093A300DFCD65 /* LaunchScreen.storyboard */,
 				D61AAF9929D093A300DFCD65 /* Info.plist */,
@@ -169,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8762ABFC29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift in Sources */,
 				878B651929EB8157006ADACE /* GroupedBarChartDemoView1.swift in Sources */,
 				8788439829DA1C4500C653B0 /* GroupedBarChartDemoView.swift in Sources */,
 				878B651329EB738A006ADACE /* PieChartDemoView.swift in Sources */,
@@ -176,7 +189,10 @@
 				D61AAF9029D093A200DFCD65 /* ViewController.swift in Sources */,
 				D61AAF8C29D093A200DFCD65 /* AppDelegate.swift in Sources */,
 				D61AAF8E29D093A200DFCD65 /* SceneDelegate.swift in Sources */,
+				8762ABFE29ECD79C0047709D /* ContentViewTexas.swift in Sources */,
+				8762AC0029ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift in Sources */,
 				E192F15229D3D3D800B6E4E5 /* DashboardViewController.swift in Sources */,
+				8762AC0229ECDE690047709D /* PieChartDemoViewTexas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
