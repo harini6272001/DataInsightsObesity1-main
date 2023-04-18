@@ -16,9 +16,13 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     
     var list = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont"]
+    
+    
+    var valueSelected = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello world")
+        // print("Hello world")
 
         // Do any additional setup after loading the view.
         dropDown.dataSource = self
@@ -48,6 +52,7 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
 
         self.textBox.text = self.list[row]
         self.dropDown.isHidden = true
+        valueSelected = list[row] as String
 
     }
 
@@ -61,6 +66,23 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     }
     
     @IBSegueAction func showChart(_ coder: NSCoder) -> UIViewController? {
+        // return UIHostingController(coder: coder, rootView: ContentView())
+        
+        let selectedValue = valueSelected
+        
+        if (selectedValue == "Mississippi") {
+            // print(selectedValue)
             return UIHostingController(coder: coder, rootView: ContentView())
+        }
+        
+        else if (selectedValue == "Texas") {
+            // print(selectedValue)
+            return UIHostingController(coder: coder, rootView: ContentViewTexas())
+        }
+        
+        else {
+            // print(selectedValue)
+            return UIViewController(coder: coder)
+        }
     }
 }
