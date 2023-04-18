@@ -17,7 +17,6 @@ import SwiftUI
 
 struct ContentViewSL : View {
     var tutors: [Tutor] = testData
-    
     var body: some View {
         NavigationView {
             List(tutors) { tutor in

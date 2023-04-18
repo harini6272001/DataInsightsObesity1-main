@@ -143,6 +143,9 @@ IAo
                                 <buttonConfiguration key="configuration" style="tinted" title="EXPLORE">
                                     <fontDescription key="titleFontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="36"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="FqP-Mg-O4k" kind="show" destinationCreationSelector="showExplore:" id="SIp-RF-7SZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -166,6 +169,16 @@ IAo
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PrX-z4-CHi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="959" y="-2"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="1dK-eC-3hf">
+            <objects>
+                <hostingController id="FqP-Mg-O4k" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yn4-3n-vjP"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cty-Wx-AD2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-320" y="-667"/>
         </scene>
     </scenes>
     <resources>

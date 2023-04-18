@@ -43,7 +43,7 @@ struct TutorDetail : View {
                 .overlay(
                     Circle().stroke(Color.orange, lineWidth: 4)
                 )
-                .shadow(radius: 20)
+                .shadow(radius: 40)
             Text(name)
                 .font(.title)
             Text(headline)
