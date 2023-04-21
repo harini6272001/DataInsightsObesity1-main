@@ -77,7 +77,7 @@ class CostPageTX: UIViewController, UITableViewDelegate, UITableViewDataSource {
         placeList.append(Card(name: "Stress", percentage: "40", image: UIImage(named: "im2")!))
         placeList.append(Card(name: "Diabetes", percentage: "25", image: UIImage(named: "im3")!))
         
-        self.update(number: payerButton.currentTitle ?? "Patient")
+        self.update(number: payerButton.currentTitle ?? "Patient OoP")
 
         super.viewDidLoad()
         // Do any additional setup after loading the view.

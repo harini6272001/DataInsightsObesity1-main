@@ -27,21 +27,6 @@
                                 <rect key="frame" x="20" y="87" width="353" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bK-AJ-oCO">
-                                <rect key="frame" x="197" y="842" width="374" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.098039215690000001" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Search">
-                                    <backgroundConfiguration key="background" cornerRadius="16">
-                                        <color key="backgroundColor" red="0.88235294117647056" green="0.90588235294117647" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Niy-ma-GBI" kind="show" destinationCreationSelector="showChart:" id="IBV-nL-LfL"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CUv-UZ-TfR">
                                 <rect key="frame" x="460" y="480" width="239" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -147,6 +132,21 @@ IAo
                                     <segue destination="FqP-Mg-O4k" kind="show" destinationCreationSelector="showExplore:" id="SIp-RF-7SZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bK-AJ-oCO">
+                                <rect key="frame" x="255" y="831" width="259" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.098039215690000001" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Search">
+                                    <backgroundConfiguration key="background" cornerRadius="16">
+                                        <color key="backgroundColor" red="0.88235294117647056" green="0.90588235294117647" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qs5-re-3Xt" kind="show" destinationCreationSelector="toMiddleMan:" id="F7b-8P-MQr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -160,15 +160,15 @@ IAo
             </objects>
             <point key="canvasLocation" x="57.8125" y="-2.34375"/>
         </scene>
-        <!--Hosting Controller-->
-        <scene sceneID="pXa-Zj-5gQ">
+        <!--middleManStoryboard-->
+        <scene sceneID="ePQ-Vn-TyP">
             <objects>
-                <hostingController id="Niy-ma-GBI" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="zmD-9U-uKa"/>
-                </hostingController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PrX-z4-CHi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="middleManStoryboard" storyboardName="middleMan" referencedIdentifier="middleManStoryboard" id="qs5-re-3Xt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ryL-fS-cbs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drS-FU-JQf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959" y="-2"/>
+            <point key="canvasLocation" x="685" y="55"/>
         </scene>
         <!--Hosting Controller-->
         <scene sceneID="1dK-eC-3hf">

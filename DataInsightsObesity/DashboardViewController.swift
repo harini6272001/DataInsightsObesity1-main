@@ -65,28 +65,40 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         
     }
     
-    @IBSegueAction func showChart(_ coder: NSCoder) -> UIViewController? {
-        // return UIHostingController(coder: coder, rootView: ContentView())
-        
-        let selectedValue = valueSelected
-        
-        if (selectedValue == "Mississippi") {
-            // print(selectedValue)
-            return UIHostingController(coder: coder, rootView: ContentView())
-        }
-        
-        else if (selectedValue == "Texas") {
-            // print(selectedValue)
-            return UIHostingController(coder: coder, rootView: ContentViewTexas())
-        }
-        
-        else {
-            // print(selectedValue)
-            return UIViewController(coder: coder)
-        }
-    }
+//    @IBSegueAction func showChart(_ coder: NSCoder) -> UIViewController? {
+//        // return UIHostingController(coder: coder, rootView: ContentView())
+//
+//        let selectedValue = valueSelected
+//
+//        if (selectedValue == "Mississippi") {
+//            // print(selectedValue)
+//            return UIHostingController(coder: coder, rootView: ContentView())
+//        }
+//
+//        else if (selectedValue == "Texas") {
+//            // print(selectedValue)
+//            return UIHostingController(coder: coder, rootView: ContentViewTexas())
+//        }
+//
+//        else {
+//            // print(selectedValue)
+//            return UIViewController(coder: coder)
+//        }
+//    }
     
     @IBSegueAction func showExplore(_ coder: NSCoder) -> UIViewController? {
         return UIHostingController(coder: coder, rootView: ContentViewSL())
+    }
+    
+    @IBSegueAction func toMiddleMan(_ coder: NSCoder) -> UIViewController? {
+        return middleManViewController(coder: coder)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        guard let MMVC = segue.destination as? middleManViewController
+            else { return }
+        // Pass the selected object to the new view controller.
+        MMVC.selectedState = valueSelected
     }
 }

@@ -31,15 +31,6 @@ struct GroupedBarChartDemoViewTexas: View {
                 .id(data.id)
                 .frame(minWidth: 500, maxWidth: 680, minHeight: 400, idealHeight: 500, maxHeight: 800, alignment: .top)
                 .padding(.horizontal)
-            Divider()
-            Button {
-                print("Button was tapped")
-            } label: {
-                Text("Cost Interpret")
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(.blue)
-            }
         }
     }
 }
