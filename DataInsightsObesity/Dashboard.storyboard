@@ -161,7 +161,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="qs5-re-3Xt" kind="presentation" destinationCreationSelector="toMiddleMan:" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="F7b-8P-MQr"/>
+                                    <segue destination="qs5-re-3Xt" kind="show" destinationCreationSelector="toMiddleMan:" id="F7b-8P-MQr"/>
                                 </connections>
                             </button>
                         </subviews>
