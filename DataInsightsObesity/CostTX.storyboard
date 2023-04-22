@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad7_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -24,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="704" height="1089"/>
                                         <subviews>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="6F5-Fo-oNi">
-                                                <rect key="frame" x="0.0" y="570" width="704" height="519"/>
+                                                <rect key="frame" x="0.0" y="522" width="704" height="567"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="76" id="3ur-jV-2EG" customClass="TableViewCell" customModule="DataInsightsObesity" customModuleProvider="target">
@@ -41,21 +42,6 @@
                                                     <outlet property="delegate" destination="BYZ-38-t0r" id="SQu-HS-sZU"/>
                                                 </connections>
                                             </tableView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLz-Wm-qfW">
-                                                <rect key="frame" x="116" y="514" width="152" height="43"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="VISUALIZE">
-                                                            <attributes>
-                                                                <font key="NSFont" size="25" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <color key="baseForegroundColor" systemColor="systemGray2Color"/>
-                                                </buttonConfiguration>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost Savings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvu-TD-BSn">
                                                 <rect key="frame" x="26" y="21" width="652" height="127.5"/>
                                                 <constraints>
@@ -74,20 +60,6 @@
                                                 <color key="textColor" red="0.0016202422560000001" green="0.097148813309999998" blue="0.39748603110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aox-hK-mzK">
-                                                <rect key="frame" x="429" y="514" width="166" height="43"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="INTERPRET">
-                                                            <attributes>
-                                                                <font key="NSFont" size="25" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                            </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xQn-pT-wYj">
                                                 <rect key="frame" x="96" y="164" width="512.5" height="47.5"/>
                                                 <subviews>
@@ -125,6 +97,7 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="6F5-Fo-oNi" firstAttribute="top" secondItem="M4f-Lj-40N" secondAttribute="bottom" constant="38" id="8J0-yL-8M4"/>
                                             <constraint firstItem="ttH-YJ-BmK" firstAttribute="centerX" secondItem="ngr-Jl-7fS" secondAttribute="centerX" id="AxO-xY-wj6"/>
                                             <constraint firstItem="ttH-YJ-BmK" firstAttribute="top" secondItem="xQn-pT-wYj" secondAttribute="bottom" constant="10.5" id="DVs-l4-Q9r"/>
                                             <constraint firstItem="M4f-Lj-40N" firstAttribute="centerX" secondItem="ngr-Jl-7fS" secondAttribute="centerX" id="G1Q-xX-vof"/>
@@ -132,13 +105,8 @@
                                             <constraint firstAttribute="bottom" secondItem="6F5-Fo-oNi" secondAttribute="bottom" id="Msb-df-L1x"/>
                                             <constraint firstItem="ttH-YJ-BmK" firstAttribute="leading" secondItem="ngr-Jl-7fS" secondAttribute="leading" constant="45" id="QzH-p0-O6V"/>
                                             <constraint firstItem="xQn-pT-wYj" firstAttribute="centerX" secondItem="ngr-Jl-7fS" secondAttribute="centerX" id="R0q-PS-503"/>
-                                            <constraint firstItem="aox-hK-mzK" firstAttribute="centerX" secondItem="ngr-Jl-7fS" secondAttribute="centerX" constant="160" id="Rkz-Zn-0Kh"/>
-                                            <constraint firstItem="6F5-Fo-oNi" firstAttribute="top" secondItem="aox-hK-mzK" secondAttribute="bottom" constant="13" id="UJA-b1-UHS"/>
                                             <constraint firstAttribute="trailing" secondItem="6F5-Fo-oNi" secondAttribute="trailing" id="UWI-Tp-9Oh"/>
                                             <constraint firstItem="6F5-Fo-oNi" firstAttribute="leading" secondItem="ngr-Jl-7fS" secondAttribute="leading" id="cYz-wd-dY5"/>
-                                            <constraint firstItem="WLz-Wm-qfW" firstAttribute="centerX" secondItem="ngr-Jl-7fS" secondAttribute="centerX" constant="-160" id="eJI-Z8-ZSu"/>
-                                            <constraint firstItem="6F5-Fo-oNi" firstAttribute="top" secondItem="WLz-Wm-qfW" secondAttribute="bottom" constant="13" id="ijX-ZC-qxj"/>
-                                            <constraint firstItem="WLz-Wm-qfW" firstAttribute="top" secondItem="M4f-Lj-40N" secondAttribute="bottom" constant="30" id="nkC-au-AdW"/>
                                             <constraint firstAttribute="trailing" secondItem="ttH-YJ-BmK" secondAttribute="trailing" constant="45" id="piB-2G-ee7"/>
                                             <constraint firstItem="Kvu-TD-BSn" firstAttribute="top" secondItem="ngr-Jl-7fS" secondAttribute="top" constant="21" id="sd0-Jj-jOM"/>
                                             <constraint firstItem="xQn-pT-wYj" firstAttribute="top" secondItem="Kvu-TD-BSn" secondAttribute="bottom" constant="15.5" id="v2K-r8-ksZ"/>
@@ -175,15 +143,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29.390997352162401" y="-30.64516129032258"/>
+            <point key="canvasLocation" x="29.032258064516128" y="-30.979699911738745"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
