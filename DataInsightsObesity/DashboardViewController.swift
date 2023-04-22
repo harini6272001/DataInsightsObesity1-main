@@ -14,7 +14,6 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     @IBOutlet weak var dropDown: UIPickerView!
     
-    
     var list = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont"]
     
     
@@ -86,6 +85,7 @@ class DashboardViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         }
     }
     
+
     @IBSegueAction func showExplore(_ coder: NSCoder) -> UIViewController? {
         return UIHostingController(coder: coder, rootView: ContentViewSL())
     }
