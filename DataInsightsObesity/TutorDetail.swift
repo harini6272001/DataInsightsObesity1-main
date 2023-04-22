@@ -71,33 +71,33 @@ struct TutorDetail : View {
                 Divider()
             }
             
-//            Group{
-//                Text(top4)
-//                    .font(.headline)
-//                    .foregroundColor(Color.blue)
-//                    .multilineTextAlignment(.center)
-//                    .lineLimit(50)
-//                Divider()
-//                Text(top5)
-//                    .font(.headline)
-//                    .foregroundColor(Color.blue)
-//                    .multilineTextAlignment(.center)
-//                    .lineLimit(50)
-//                Divider()
-//                Text(top6)
-//                    .font(.headline)
-//                    .foregroundColor(Color.blue)
-//                    .multilineTextAlignment(.center)
-//                    .lineLimit(50)
-//                Divider()
-//                Text(top7)
-//                    .font(.headline)
-//                    .foregroundColor(Color.blue)
-//                    .multilineTextAlignment(.center)
-//                    .lineLimit(50)
-//            }
+            Group{
+                Text(top4)
+                    .font(.headline)
+                    .foregroundColor(Color.blue)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(50)
+                Divider()
+                Text(top5)
+                    .font(.headline)
+                    .foregroundColor(Color.blue)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(50)
+                Divider()
+                Text(top6)
+                    .font(.headline)
+                    .foregroundColor(Color.blue)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(50)
+                Divider()
+            }
             
             Group{
+                Text(top7)
+                    .font(.headline)
+                    .foregroundColor(Color.blue)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(50)
                 Divider()
                 Text(top8)
                     .font(.headline)
@@ -110,6 +110,9 @@ struct TutorDetail : View {
                     .foregroundColor(Color.blue)
                     .multilineTextAlignment(.center)
                     .lineLimit(50)
+            }
+            
+            Group{
                 Divider()
                 Text(top10)
                     .font(.headline)
