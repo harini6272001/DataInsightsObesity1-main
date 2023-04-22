@@ -19,6 +19,14 @@
 		878B651329EB738A006ADACE /* PieChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B651229EB738A006ADACE /* PieChartDemoView.swift */; };
 		878B651729EB79C1006ADACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B651629EB79C1006ADACE /* ContentView.swift */; };
 		878B651929EB8157006ADACE /* GroupedBarChartDemoView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B651829EB8157006ADACE /* GroupedBarChartDemoView1.swift */; };
+		C8258E9329F1FBAD003554AA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8258E9129F1FBAD003554AA /* TableViewCell.swift */; };
+		C8258E9429F1FBAD003554AA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8258E9229F1FBAD003554AA /* TableViewCell.xib */; };
+		C8258E9729F1FBCC003554AA /* CostTX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8258E9529F1FBCC003554AA /* CostTX.storyboard */; };
+		C8258E9829F1FBCC003554AA /* CostPageTX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8258E9629F1FBCC003554AA /* CostPageTX.swift */; };
+		C8258E9B29F1FD19003554AA /* CostPageMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8258E9929F1FD19003554AA /* CostPageMS.swift */; };
+		C8258E9C29F1FD19003554AA /* CostMS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8258E9A29F1FD19003554AA /* CostMS.storyboard */; };
+		C8258E9E29F21F96003554AA /* middleMan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8258E9D29F21F96003554AA /* middleMan.storyboard */; };
+		C8258EA229F22142003554AA /* middleManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8258EA129F22142003554AA /* middleManViewController.swift */; };
 		D61AAF8C29D093A200DFCD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61AAF8B29D093A200DFCD65 /* AppDelegate.swift */; };
 		D61AAF8E29D093A200DFCD65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61AAF8D29D093A200DFCD65 /* SceneDelegate.swift */; };
 		D61AAF9029D093A200DFCD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61AAF8F29D093A200DFCD65 /* ViewController.swift */; };
@@ -42,6 +50,14 @@
 		878B651229EB738A006ADACE /* PieChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDemoView.swift; sourceTree = "<group>"; };
 		878B651629EB79C1006ADACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		878B651829EB8157006ADACE /* GroupedBarChartDemoView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChartDemoView1.swift; sourceTree = "<group>"; };
+		C8258E9129F1FBAD003554AA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C8258E9229F1FBAD003554AA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C8258E9529F1FBCC003554AA /* CostTX.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CostTX.storyboard; sourceTree = "<group>"; };
+		C8258E9629F1FBCC003554AA /* CostPageTX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostPageTX.swift; sourceTree = "<group>"; };
+		C8258E9929F1FD19003554AA /* CostPageMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostPageMS.swift; sourceTree = "<group>"; };
+		C8258E9A29F1FD19003554AA /* CostMS.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CostMS.storyboard; sourceTree = "<group>"; };
+		C8258E9D29F21F96003554AA /* middleMan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = middleMan.storyboard; sourceTree = "<group>"; };
+		C8258EA129F22142003554AA /* middleManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleManViewController.swift; sourceTree = "<group>"; };
 		D61AAF8829D093A200DFCD65 /* DataInsightsObesity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataInsightsObesity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61AAF8B29D093A200DFCD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D61AAF8D29D093A200DFCD65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +108,8 @@
 				E192F15129D3D3D800B6E4E5 /* DashboardViewController.swift */,
 				D61AAF9129D093A200DFCD65 /* Main.storyboard */,
 				E192F14F29D3C04700B6E4E5 /* Dashboard.storyboard */,
+				C8258E9D29F21F96003554AA /* middleMan.storyboard */,
+				C8258EA129F22142003554AA /* middleManViewController.swift */,
 				D67AEE2B29DE047B006BEF08 /* dummy_auth.csv */,
 				8788439729DA1C4500C653B0 /* GroupedBarChartDemoView.swift */,
 				878B651829EB8157006ADACE /* GroupedBarChartDemoView1.swift */,
@@ -107,6 +125,12 @@
 				87621E1829EEE86300092510 /* ContentViewSL.swift */,
 				D61AAF9629D093A300DFCD65 /* LaunchScreen.storyboard */,
 				D61AAF9929D093A300DFCD65 /* Info.plist */,
+				C8258E9129F1FBAD003554AA /* TableViewCell.swift */,
+				C8258E9229F1FBAD003554AA /* TableViewCell.xib */,
+				C8258E9629F1FBCC003554AA /* CostPageTX.swift */,
+				C8258E9529F1FBCC003554AA /* CostTX.storyboard */,
+				C8258E9A29F1FD19003554AA /* CostMS.storyboard */,
+				C8258E9929F1FD19003554AA /* CostPageMS.swift */,
 			);
 			path = DataInsightsObesity;
 			sourceTree = "<group>";
@@ -176,8 +200,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D61AAF9829D093A300DFCD65 /* LaunchScreen.storyboard in Resources */,
+				C8258E9C29F1FD19003554AA /* CostMS.storyboard in Resources */,
+				C8258E9429F1FBAD003554AA /* TableViewCell.xib in Resources */,
 				D61AAF9529D093A300DFCD65 /* Assets.xcassets in Resources */,
+				C8258E9E29F21F96003554AA /* middleMan.storyboard in Resources */,
 				D67AEE2C29DE047B006BEF08 /* dummy_auth.csv in Resources */,
+				C8258E9729F1FBCC003554AA /* CostTX.storyboard in Resources */,
 				D61AAF9329D093A200DFCD65 /* Main.storyboard in Resources */,
 				E192F15029D3C04700B6E4E5 /* Dashboard.storyboard in Resources */,
 			);
@@ -191,9 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8762ABFC29ECD73A0047709D /* GroupedBarChartDemoViewTexas.swift in Sources */,
+				C8258E9329F1FBAD003554AA /* TableViewCell.swift in Sources */,
 				87621E1929EEE86300092510 /* ContentViewSL.swift in Sources */,
 				878B651929EB8157006ADACE /* GroupedBarChartDemoView1.swift in Sources */,
 				8788439829DA1C4500C653B0 /* GroupedBarChartDemoView.swift in Sources */,
+				C8258EA229F22142003554AA /* middleManViewController.swift in Sources */,
 				878B651329EB738A006ADACE /* PieChartDemoView.swift in Sources */,
 				878B651729EB79C1006ADACE /* ContentView.swift in Sources */,
 				D61AAF9029D093A200DFCD65 /* ViewController.swift in Sources */,
@@ -202,9 +232,11 @@
 				D61AAF8E29D093A200DFCD65 /* SceneDelegate.swift in Sources */,
 				8762ABFE29ECD79C0047709D /* ContentViewTexas.swift in Sources */,
 				8762AC0029ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift in Sources */,
+				C8258E9829F1FBCC003554AA /* CostPageTX.swift in Sources */,
 				E192F15229D3D3D800B6E4E5 /* DashboardViewController.swift in Sources */,
 				87621E1529EEE82C00092510 /* Tutor.swift in Sources */,
 				8762AC0229ECDE690047709D /* PieChartDemoViewTexas.swift in Sources */,
+				C8258E9B29F1FD19003554AA /* CostPageMS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,7 @@ struct GroupedBarChartDemoView: View {
     
     let data = makeData()
     var body: some View {
+        VStack{
             GroupedBarChart(chartData: data, groupSpacing: 25)
                 .touchOverlay(chartData: data, unit: .suffix(of: "patients"))
                 .yAxisGrid(chartData: data)
@@ -23,6 +24,7 @@ struct GroupedBarChartDemoView: View {
                 .id(data.id)
                 .frame(minWidth: 500, maxWidth: 680, minHeight: 400, idealHeight: 500, maxHeight: 800, alignment: .top)
                 .padding(.horizontal)
+        }
             
     }
 }
