@@ -29,12 +29,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToDashboard" {
-            guard let vc = segue.destination as? DashboardViewController else {return}
-            self.present(vc, animated: true)
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "goToDashboard" {
+//            guard let vc = segue.destination as? DashboardViewController else {return}
+//            self.present(vc, animated: true)
+//        }
+//    }
     
     func csv(data: String) -> [[String]] {
             var result: [[String]] = []
