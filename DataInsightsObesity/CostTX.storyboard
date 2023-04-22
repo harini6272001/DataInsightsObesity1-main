@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad7_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -58,20 +57,20 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost Savings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvu-TD-BSn">
-                                                <rect key="frame" x="21" y="21" width="662" height="127.5"/>
+                                                <rect key="frame" x="26" y="21" width="652" height="127.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="127.5" id="rYr-MS-k4f"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="110"/>
                                                 <color key="textColor" red="0.0016202422560000001" green="0.097148813309999998" blue="0.39748603110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7,261" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4f-Lj-40N">
-                                                <rect key="frame" x="104" y="304" width="496" height="180"/>
+                                                <rect key="frame" x="107.5" y="304" width="489.5" height="180"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="CY7-cT-nfw"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="160"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="160"/>
                                                 <color key="textColor" red="0.0016202422560000001" green="0.097148813309999998" blue="0.39748603110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -90,16 +89,16 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xQn-pT-wYj">
-                                                <rect key="frame" x="107" y="164" width="490.5" height="47.5"/>
+                                                <rect key="frame" x="96" y="164" width="512.5" height="47.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expected annual cost of care to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiW-Tl-rIn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="376" height="47.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="47.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                                         <color key="textColor" red="0.0016202422560000001" green="0.097148813309999998" blue="0.39748603110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-KZ-v9A">
-                                                        <rect key="frame" x="383" y="0.0" width="107.5" height="47.5"/>
+                                                        <rect key="frame" x="405" y="0.0" width="107.5" height="47.5"/>
                                                         <size key="titleShadowOffset" width="5" height="5"/>
                                                         <menu key="menu" id="z37-Ow-G7g">
                                                             <children>
@@ -119,7 +118,7 @@
                                                     <constraint firstAttribute="height" constant="62" id="Jmp-m8-hye"/>
                                                 </constraints>
                                                 <string key="text">The cost provided is only an estimate from the product price and does not include all possible expenses and fees. This cost does not include the cost of care for  the developed co-morbidity. The total costs may vary significantly based on the presence of other comorbidities.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
