@@ -41,7 +41,7 @@ extension GroupedBarChartDemoViewTexas1 {
             var data: GroupingData {
                 switch self {
                 case .truev:
-                    return GroupingData(title: "% of Texas Population" , colour: ColourStyle(colour: .blue))
+                    return GroupingData(title: "% of Texas Population" , colour: ColourStyle(colour:Color("Custom Colour")))
                 }
             }
         }

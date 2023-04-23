@@ -43,9 +43,9 @@ extension PieChartDemoViewTexas {
    
         let data = PieDataSet(
             dataPoints: [
-                PieChartDataPoint(value: 34.8, description: "% of Obese",   colour: .green  , label: .icon(systemName: "1.square", colour: .white, size: 30)),
-                PieChartDataPoint(value: 34.8, description: "% of Overweight",   colour: .orange   , label: .icon(systemName: "2.square", colour: .white, size: 30)),
-                PieChartDataPoint(value: 30.4, description: "% Not Obese or Overweight", colour: .purple, label: .icon(systemName: "3.square", colour: .white, size: 30)),
+                PieChartDataPoint(value: 34.8, description: "% of Obese",   colour:Color("Custom Colour") , label: .icon(systemName: "1.square", colour: .white, size: 30)),
+                PieChartDataPoint(value: 34.8, description: "% of Overweight",   colour:Color("Grey")   , label: .icon(systemName: "2.square", colour: .white, size: 30)),
+                PieChartDataPoint(value: 30.4, description: "% Not Obese or Overweight", colour:Color("Sea Blue"), label: .icon(systemName: "3.square", colour: .white, size: 30)),
                
             ],
             legendTitle: "Data")

@@ -24,6 +24,7 @@ struct GroupedBarChartDemoView1: View {
                 .id(data.id)
                 .frame(minWidth: 500, maxWidth: 680, minHeight: 400, idealHeight: 500, maxHeight: 800, alignment: .top)
                 .padding(.horizontal)
+        
             
     }
 }
@@ -41,7 +42,8 @@ extension GroupedBarChartDemoView1 {
             var data: GroupingData {
                 switch self {
                 case .truev:
-                    return GroupingData(title: "% of Missippi Population" , colour: ColourStyle(colour: .blue))
+                    return GroupingData(title: "% of Missippi Population" , colour: ColourStyle(colour:Color("Custom Colour")))
+                    
                 }
             }
         }
@@ -74,7 +76,7 @@ extension GroupedBarChartDemoView1 {
                                    metadata: ChartMetadata(title: " Mississippi State Level Data", subtitle: "SDOH Factors "),
                                    xAxisLabels: ["One"],
                                    chartStyle: BarChartStyle(infoBoxPlacement: .header,
-                                                             xAxisLabelsFrom: .dataPoint(rotation: .degrees(0)),
+                                                             xAxisLabelsFrom: .dataPoint(rotation: .degrees(0) ),
                                                              yAxisGridStyle: GridStyle(numberOfLines: 5),
                                                              yAxisNumberOfLabels: 10,
                                                              baseline: .zero,

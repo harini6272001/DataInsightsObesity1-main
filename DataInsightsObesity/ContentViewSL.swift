@@ -43,9 +43,15 @@ struct TutorCell : View {
                 .cornerRadius(70)
             VStack(alignment: .leading) {
                 Text(tutor.name)
+                    .foregroundColor(Color("Custom Colour"))
+                    .font(.custom(
+                            "Arial",
+                            fixedSize: 22))
                 Text(tutor.headline)
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .font(.custom(
+                            "Arial",
+                            fixedSize:15))
+                    .foregroundColor(Color("Grey"))
             }
         }
     }

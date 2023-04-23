@@ -50,9 +50,9 @@ extension GroupedBarChartDemoViewTexas {
             var data: GroupingData {
                 switch self {
                 case .truev:
-                    return GroupingData(title: "True Patients" , colour: ColourStyle(colour: .red))
+                    return GroupingData(title: "True Patients" , colour: ColourStyle(colour:Color("Sea Blue")))
                 case .predicted:
-                    return GroupingData(title: "Predicted Patients", colour: ColourStyle(colour: .blue))
+                    return GroupingData(title: "Predicted Patients", colour: ColourStyle(colour:Color("Grey")))
                 }
             }
         }
