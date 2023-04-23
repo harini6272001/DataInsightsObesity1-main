@@ -27,12 +27,13 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Graphs">
                                                     <attributes>
-                                                        <font key="NSFont" size="35" name="Helvetica"/>
-                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="41" name="CenturyGothicPro-Bold"/>
+                                                        <font key="NSOriginalFont" size="35" name="AlTarikh"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
-                                            <color key="baseBackgroundColor" red="0.16470588235294117" green="0.56862745098039214" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" red="0.109803915" green="0.074509806930000005" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="9Qi-zZ-4mr" kind="show" destinationCreationSelector="showCharts:" id="7XI-g1-5RR"/>
@@ -47,7 +48,8 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Costs">
                                                     <attributes>
-                                                        <font key="NSFont" size="35" name="Helvetica"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="41" name="CenturyGothicPro-Bold"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>

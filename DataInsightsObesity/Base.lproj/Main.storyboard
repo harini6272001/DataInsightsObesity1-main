@@ -28,7 +28,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="login">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="Helvetica"/>
+                                                <font key="NSFont" size="22" name="CenturyGothicPro-Bold"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -44,12 +44,12 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v7b-9j-u0L">
                                         <rect key="frame" x="0.0" y="0.0" width="450" height="37.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xcf-nW-k1n">
                                         <rect key="frame" x="0.0" y="62.5" width="450" height="37.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>

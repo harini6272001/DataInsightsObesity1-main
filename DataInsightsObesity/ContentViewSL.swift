@@ -45,12 +45,12 @@ struct TutorCell : View {
                 Text(tutor.name)
                     .foregroundColor(Color("Custom Colour"))
                     .font(.custom(
-                            "Arial",
-                            fixedSize: 22))
+                            "Century Gothic",
+                            fixedSize: 20))
                 Text(tutor.headline)
                     .font(.custom(
-                            "Arial",
-                            fixedSize:15))
+                            "Century Gothic",
+                            fixedSize:14))
                     .foregroundColor(Color("Grey"))
             }
         }
