@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		87421BAE29F83F3000652420 /* SDOHMis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87421BAD29F83F3000652420 /* SDOHMis.swift */; };
 		87421BB029F8481100652420 /* SDOHTexas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87421BAF29F8481100652420 /* SDOHTexas.swift */; };
+		87421BB229F8528B00652420 /* SDOHTem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87421BB129F8528B00652420 /* SDOHTem.swift */; };
 		87621E1529EEE82C00092510 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87621E1429EEE82C00092510 /* Tutor.swift */; };
 		87621E1729EEE83E00092510 /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87621E1629EEE83E00092510 /* TutorDetail.swift */; };
 		87621E1929EEE86300092510 /* ContentViewSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87621E1829EEE86300092510 /* ContentViewSL.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		87421BAD29F83F3000652420 /* SDOHMis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDOHMis.swift; sourceTree = "<group>"; };
 		87421BAF29F8481100652420 /* SDOHTexas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDOHTexas.swift; sourceTree = "<group>"; };
+		87421BB129F8528B00652420 /* SDOHTem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDOHTem.swift; sourceTree = "<group>"; };
 		87621E1429EEE82C00092510 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		87621E1629EEE83E00092510 /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
 		87621E1829EEE86300092510 /* ContentViewSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewSL.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E192F14F29D3C04700B6E4E5 /* Dashboard.storyboard */,
 				C8258E9D29F21F96003554AA /* middleMan.storyboard */,
 				C8258EA129F22142003554AA /* middleManViewController.swift */,
+				87621E1429EEE82C00092510 /* Tutor.swift */,
 				D67AEE2B29DE047B006BEF08 /* dummy_auth.csv */,
 				8788439729DA1C4500C653B0 /* GroupedBarChartDemoView.swift */,
 				878B651829EB8157006ADACE /* GroupedBarChartDemoView1.swift */,
@@ -124,9 +127,9 @@
 				8762ABFF29ECDE070047709D /* GroupedBarChartDemoViewTexas1.swift */,
 				8762AC0129ECDE690047709D /* PieChartDemoViewTexas.swift */,
 				D61AAF9429D093A300DFCD65 /* Assets.xcassets */,
-				87621E1429EEE82C00092510 /* Tutor.swift */,
 				87621E1629EEE83E00092510 /* TutorDetail.swift */,
 				87421BAD29F83F3000652420 /* SDOHMis.swift */,
+				87421BB129F8528B00652420 /* SDOHTem.swift */,
 				87421BAF29F8481100652420 /* SDOHTexas.swift */,
 				87621E1829EEE86300092510 /* ContentViewSL.swift */,
 				D61AAF9629D093A300DFCD65 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				C8258E9329F1FBAD003554AA /* TableViewCell.swift in Sources */,
 				87621E1929EEE86300092510 /* ContentViewSL.swift in Sources */,
 				878B651929EB8157006ADACE /* GroupedBarChartDemoView1.swift in Sources */,
+				87421BB229F8528B00652420 /* SDOHTem.swift in Sources */,
 				8788439829DA1C4500C653B0 /* GroupedBarChartDemoView.swift in Sources */,
 				C8258EA229F22142003554AA /* middleManViewController.swift in Sources */,
 				878B651329EB738A006ADACE /* PieChartDemoView.swift in Sources */,

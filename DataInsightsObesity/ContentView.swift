@@ -22,14 +22,14 @@ struct ContentView: View {
                     top5:"Avgerage Amount Spent on All Household Expenses",
                     top6:"% Population Black (Non-Hispanic)",
                     top7:"% Asian People without Health Insurance",
-                    top8:"% of Medicare beneficiaries diagnosed with CKD",
+                    top8:"% of Medicare Beneficiaries Diagnosed with Chronic Kidney Disease",
                     top9:"% Black People without Health Insurance",
                     top10:"% Change in Rate of Stroke")
             SDOHMis(name: "Mississippi Top 10 Drivers of Comorbidity", headline: "Comorbidity: Respiratory Disease",
                     top1:"Patient Age",
                     top2:"Low-Income Childhood Obesity Rate",
                     top3:"Patient Gender",
-                    top4:"% of Medicare beneficiaries diagnosed with High Cholesterol",
+                    top4:"% of Medicare Beneficiaries Diagnosed with High Cholesterol",
                     top5:"% of Jobs in Transport or Warehousing",
                     top6:"% Asian Population without Health Insurance",
                     top7:"% Change in Rate of Lower Respiratory Disease",
@@ -50,14 +50,14 @@ struct ContentView: View {
             SDOHMis(name: "Mississippi Top 10 Drivers of Comorbidity", headline: "Comorbidity: Hypertension",
                     top1:"Patient Age",
                     top2:"% of Adults self-reporting Depression",
-                    top3:"",
+                    top3:"Zip Code",
                     top4:"% of Asian people without Health Insurance",
                     top5:"Median Hispanic Household Income",
                     top6:"Rate of Fitness and Recreation Centers",
-                    top7:"% of Medicare beneficiaries diagnosed with depression",
+                    top7:"% of Medicare Beneficiaries Diagnosed with Depression",
                     top8:"% of Families in Poverty",
                     top9:"Patient Zip",
-                    top10:"% of Adults self-reporting physician inactivity in past 30 days")
+                    top10:"% of Adults Self-Reporting Physician Inactivity in Past 30 Days")
             SDOHMis(name: "Mississippi Top 10 Drivers of Comorbidity", headline: "Comorbidity: Obesity-Related Cancer",
                     top1:"Patient Age",
                     top2:"Patient Gender",
@@ -71,7 +71,6 @@ struct ContentView: View {
                     top10:"% of People with Public Health Insurance")
             
           
-    
 
 
         }
