@@ -56,7 +56,7 @@ struct ContentView: View {
                     top6:"Rate of Fitness and Recreation Centers",
                     top7:"% of Medicare Beneficiaries Diagnosed with Depression",
                     top8:"% of Families in Poverty",
-                    top9:"Patient Zip",
+                    top9:"Patient Zip Code",
                     top10:"% of Adults Self-Reporting Physician Inactivity in Past 30 Days")
             SDOHMis(name: "Mississippi Top 10 Drivers of Comorbidity", headline: "Comorbidity: Obesity-Related Cancer",
                     top1:"Patient Age",
