@@ -30,7 +30,7 @@ class middleManViewController: UIViewController {
             // print(selectedValue)
             return UIHostingController(coder: coder, rootView: SDOHTem(name: "Alabama Top 10 Drivers of Comorbidity", headline: "Comorbidity: All Comorbidities ",
                                                                        top1: "Medicare Fee-for-Service Beneficiaries who are Diagnosed with High Blood Pressure",
-                                                                       top2:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with diabetes",
+                                                                       top2:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Diabetes",
                                                                        top3:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Chronic Kidney Disease",
                                                                        top4:"% of non-federal jobs in Utilities in 2019",
                                                                        top5:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Heart Failure",
@@ -72,7 +72,7 @@ class middleManViewController: UIViewController {
             // print(selectedValue)
             return UIHostingController(coder: coder, rootView: SDOHTem(name: "Arkansas Top 10 Drivers of Comorbidity", headline: "Comorbidity: All Comorbidities ",
                                                                        top1: "Medicare Fee-for-Service Beneficiaries who are Diagnosed with High Blood Pressure",
-                                                                       top2:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with diabetes",
+                                                                       top2:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Diabetes",
                                                                        top3:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Chronic Kidney Disease",
                                                                        top4:"% of non-federal jobs in Utilities in 2019",
                                                                        top5:"Medicare Fee-for-Service Beneficiaries who are Diagnosed with Heart Failure",

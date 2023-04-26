@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="ipad7_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,11 +12,11 @@
             <objects>
                 <viewController storyboardIdentifier="DashboardVC" id="Y6W-OH-hqX" customClass="DashboardViewController" customModule="DataInsightsObesity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="744" height="1133"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REGIONAL ACCOUNT MANAGER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soC-o7-t78">
-                                <rect key="frame" x="331" y="198.5" width="393" height="19"/>
+                                <rect key="frame" x="331" y="142" width="1015" height="19"/>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="17"/>
                                 <color key="textColor" red="0.61960784313725492" green="0.62352941176470589" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -30,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CUv-UZ-TfR">
-                                <rect key="frame" x="96.5" y="470.5" width="230.5" height="34"/>
+                                <rect key="frame" x="407.5" y="470.5" width="230.5" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230.5" id="ciO-kh-KAE"/>
                                 </constraints>
@@ -38,7 +37,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thx-MY-l1g">
-                                <rect key="frame" x="124" y="411" width="179.5" height="37.5"/>
+                                <rect key="frame" x="435" y="411" width="179.5" height="37.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="179.5" id="a1z-GB-S96"/>
                                 </constraints>
@@ -47,13 +46,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4N-gU-Lji">
-                                <rect key="frame" x="347.5" y="411.5" width="49.5" height="37"/>
+                                <rect key="frame" x="658.5" y="411.5" width="49.5" height="37"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="33"/>
                                 <color key="textColor" red="0.01787204127" green="0.091924379910000006" blue="0.37987732889999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y0v-8l-kZU">
-                                <rect key="frame" x="417" y="470.5" width="230.5" height="34"/>
+                                <rect key="frame" x="728" y="470.5" width="230.5" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230.5" id="5RT-jN-r24"/>
                                 </constraints>
@@ -61,19 +60,19 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGL-3Z-YYm">
-                                <rect key="frame" x="124" y="316" width="176.5" height="54.5"/>
+                                <rect key="frame" x="435" y="316" width="176.5" height="54.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="SEARCH">
                                     <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlf-ta-8nY">
-                                <rect key="frame" x="331" y="82" width="393" height="116.5"/>
+                                <rect key="frame" x="331" y="82" width="1015" height="60"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="50" name="CenturyGothicPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="50"/>
                                             <font key="NSOriginalFont" size="51" name="NotoSansMyanmar-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -81,14 +80,14 @@
                                     <fragment content=", ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="50" name="CenturyGothicPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="50"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="John">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="50" name="CenturyGothicPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="50"/>
                                             <font key="NSOriginalFont" size="51" name="NotoSansMyanmar-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -96,14 +95,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="50" name="CenturyGothicPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="50"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Smith">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="50" name="CenturyGothicPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="50"/>
                                             <font key="NSOriginalFont" size="51" name="NotoSansMyanmar-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -112,7 +111,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uD8-Y7-Gvi">
-                                <rect key="frame" x="433.5" y="315.5" width="197" height="55.5"/>
+                                <rect key="frame" x="744.5" y="315.5" width="197" height="55.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="197" id="At2-Xl-ShV"/>
                                 </constraints>
@@ -126,7 +125,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zip Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3h-gX-wAr">
-                                <rect key="frame" x="458.5" y="411.5" width="148" height="37"/>
+                                <rect key="frame" x="769.5" y="411.5" width="148" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="148" id="Lo6-qf-Ige"/>
                                 </constraints>
@@ -135,14 +134,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="jg3-rd-bBT">
-                                <rect key="frame" x="72" y="512.5" width="280" height="209"/>
+                                <rect key="frame" x="383" y="512.5" width="280" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="1ui-zX-BoP"/>
                                     <constraint firstAttribute="height" constant="209" id="FjV-cb-76f"/>
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bK-AJ-oCO">
-                                <rect key="frame" x="473.5" y="592.5" width="118" height="49"/>
+                                <rect key="frame" x="786" y="592.5" width="114.5" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="zrL-8y-kxp"/>
                                 </constraints>
@@ -156,7 +155,7 @@
                                         <fragment content="Search">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="CenturyGothicPro"/>
+                                                <font key="NSFont" metaFont="system" size="30"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -165,10 +164,6 @@
                                     <segue destination="qs5-re-3Xt" kind="show" destinationCreationSelector="toMiddleMan:" id="F7b-8P-MQr"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="xxx" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ7-dW-22X">
-                                <rect key="frame" x="583" y="140" width="158" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -210,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56.398940864960281" y="-3.2258064516129035"/>
+            <point key="canvasLocation" x="54.904831625183014" y="-3.5156249999999996"/>
         </scene>
         <!--middleManStoryboard-->
         <scene sceneID="ePQ-Vn-TyP">
@@ -235,6 +230,5 @@
     </scenes>
     <resources>
         <image name="Alice" width="285" height="292"/>
-        <image name="xxx" width="1540" height="1000"/>
     </resources>
 </document>
